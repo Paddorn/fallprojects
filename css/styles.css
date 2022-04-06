@@ -1,0 +1,64 @@
+/*
+Author: James Barlow
+Date: 10/29/2021
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, main, footer, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+  background-color: #ffe5dc;
+  font-family: sans-serif;
+}
+caption {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 2%;
+  text-align: center;
+  color: #792101;
+}
+table {
+  width: 690px;
+  margin-top: 0; 
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 8px solid #fd4d0c;
+  box-shadow:10px 10px 5px #792101;
+  border-collapse: collapse;
+  padding: 4%;
+}
+
+tr td{
+  border: 1px solid #a22c02;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+  background-color: #fe9772;
+}
+
+thead th {
+  background-color:#a22c02;
+  border:1px solid #ffe5dc;
+  color: #ffe5dc;
+}
+th , td {
+  padding: 2%;
+}
+
+
+p {
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+}
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
